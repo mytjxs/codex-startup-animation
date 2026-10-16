@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "output/codex-startup-2k-144fps-crf16.mp4",
+      "bytes": 14010526,
+      "sha256": "F5E20FEAB29D3E89893BEE995A24857BE3E37F773795AF9A21FFAA017C199187"
+    },
+    {
+      "path": "output/versions/ai-refined-v4/dragon-wallpaper-ambient-2k-144fps.mp4",
+      "bytes": 139642479,
+      "sha256": "7D72905FCC39478E0D8006F712549FA78F100036FAFA09D506DE209ACFFD9EBA"
+    },
+    {
+      "path": "output/handoff-impact.png",
+      "bytes": 2131029,
+      "sha256": "75F160EEAE4CFA096C8E64CF342631454CFEC9EE23BAA3DFEF1EB815F0C2567D"
+    },
+    {
+      "path": "assets/dragon-cinematic-closed.png",
+      "bytes": 2493927,
+      "sha256": "8BD9B4370DE67F9F1D87E7EECF41A7C81F9000FF65C24A0416D6E6996BAE095D"
+    },
+    {
+      "path": "assets/dragon-cinematic-open.png",
+      "bytes": 2641219,
+      "sha256": "ACF6E859DC714C8F0EB23D5D4894E9968CE22DE5E25A95F37CAC6DE99190AC7A"
+    },
+    {
+      "path": "assets/dragon-eye-half.png",
+      "bytes": 2496347,
+      "sha256": "3BA4616F2DD0AC1E776F66EB9CB11A90048533C92063DDF844AE6584E0B15051"
+    },
+    {
+      "path": "assets/dragon-eye-motion.png",
+      "bytes": 14087264,
+      "sha256": "3D0783E55F4EFFA8F1383A3D958C47B31BAB519E8ECE35802BB28C8D11BCF034"
+    },
+    {
+      "path": "assets/dragon-eye-quarter.png",
+      "bytes": 2478388,
+      "sha256": "0EA31C5DF767A63F38733182B94A1808707F169EFADD90BB850ACA2C29192526"
+    },
+    {
+      "path": "assets/dragon-eye-threequarter.png",
+      "bytes": 2484348,
+      "sha256": "E6FB125C5A7496AC609BE368F1A32201715484E6619F45DAB87130CC2BFB8A7E"
+    },
+    {
+      "path": "assets/dragon-master-closed-cutout-v1.png",
+      "bytes": 2524129,
+      "sha256": "A5008DC2E31A905AD231DB8B8D2D49C9C1B2E5A81612D0AAE46298B9C9C09735"
+    },
+    {
+      "path": "assets/dragon-master-open-cutout-v1.png",
+      "bytes": 2583472,
+      "sha256": "413CA099BC14979DDABD972E891BE34DF2180AD7787B52AC86441FA542E1BBFD"
+    },
+    {
+      "path": "assets/dragon-wallpaper-shy-v2.png",
+      "bytes": 2302676,
+      "sha256": "C32A53E84CDA53D7A2F6B08C6FCCF60E6AE2FB9C2D296852194710C7ADAEF530"
+    },
+    {
+      "path": "assets/gpt-dragon-reference-v3.png",
+      "bytes": 1700712,
+      "sha256": "85C687DA5DFF28DC356FD605F078F0B2A58E5771368BD0E92E981FAD917007DF"
+    },
+    {
+      "path": "assets/face-detail-v5/eye-motion-2x.png",
+      "bytes": 51636969,
+      "sha256": "ACE3EB13E39436DF24A9010FCB8F0BA4C587759644DC1A6C2D11B6CE1490861C"
+    },
+    {
+      "path": "assets/face-detail-v5/eye-open-left.png",
+      "bytes": 222835,
+      "sha256": "5DC1B352066C0068093A11E57C55A2DE16C19EB8D4FDC740A2459E8F6D726871"
+    },
+    {
+      "path": "assets/face-detail-v5/eye-open-right.png",
+      "bytes": 237892,
+      "sha256": "D9AFFFE103CDCD6DB5F2075A5A29884931730C5F0C3FE71F33A33A0EA94FBEE2"
+    },
+    {
+      "path": "assets/face-detail-v5/face-closed.png",
+      "bytes": 2875325,
+      "sha256": "508379A7D19FF67EB50B96B9473D4BFEBBAA1A7BFC695D5C5E65FD71303F7F8C"
+    },
+    {
+      "path": "assets/face-detail-v5/face-half.png",
+      "bytes": 2943666,
+      "sha256": "5C03BCAB283B6F84371BE905E05A5D01F6AC12902DF8069C3B31E19973334418"
+    },
+    {
+      "path": "assets/face-detail-v5/face-open.png",
+      "bytes": 2995872,
+      "sha256": "B99ECBCBFBE251EE2D03818BCE9C31CA30399EC44EA7571C299A44FF77FEF80A"
+    },
+    {
+      "path": "assets/face-detail-v5/face-quarter.png",
+      "bytes": 2847625,
+      "sha256": "20AF201BDAA264B8E7A2F4691CD9968813F51B0BF91B73E69351549E294B3C4C"
+    },
+    {
+      "path": "assets/face-detail-v5/face-threequarter.png",
+      "bytes": 2959005,
+      "sha256": "2C356E6122968072905E1EF78307EEA4EEC3B4A5B88E157036B9AA0EC3C0BD0B"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-000-eye-0.png",
+      "bytes": 199528,
+      "sha256": "04E46FA7384244362795F1A03B7F337BDB6703F3B5E23F17288B9C65F4226B70"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-000-eye-1.png",
+      "bytes": 211725,
+      "sha256": "708C7B75F35BDB5C22663CD02062B23B7A809E6D5E76B2B7BCD957751DDCF5DA"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-015-eye-0.png",
+      "bytes": 193691,
+      "sha256": "22A8C370883794603E0C12F0CD594972AF0D5BA23A0D638AF733887662616595"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-015-eye-1.png",
+      "bytes": 206680,
+      "sha256": "3F686224A573534D6E0665869792608088ABC47904295F263B4FE6B75F54728D"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-030-eye-0.png",
+      "bytes": 202866,
+      "sha256": "F9DDB000AE62BCF391D0BEF50CFEF60EC524E03BD4E0B9538D03E65027534014"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-030-eye-1.png",
+      "bytes": 216522,
+      "sha256": "402410A4D6460D33AE5DC30B4A15F7FE4E163918F09A8E607B50234EF9E2BC74"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-045-eye-0.png",
+      "bytes": 200154,
+      "sha256": "D077B192E4383D62B40B3666A895CF6696C25C9619C8832EF7101C180798EA39"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-045-eye-1.png",
+      "bytes": 214364,
+      "sha256": "571EA9D6F95BDBE79EF5FB00C4E990FD42BD895EC6F52F77EF831322CAE0E9AE"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-060-eye-0.png",
+      "bytes": 211014,
+      "sha256": "6C6CF9BB9D7E5D089250899A2348D485305A37F0BF6D48178A91B3C744099406"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-060-eye-1.png",
+      "bytes": 225124,
+      "sha256": "8F93ECC54BD92FB129BC7DB906927CDD95C26D51EE74FE98B0F297929AA4B8C6"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-075-eye-0.png",
+      "bytes": 206559,
+      "sha256": "55C0B34A6E3038D5C8AFF6EA01096A3494730464E68A975C738EA057767E4B97"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-075-eye-1.png",
+      "bytes": 220794,
+      "sha256": "3B39BA571350674E916A19ADA171FF9AC73212EA5635544944C39D36BAD53E4A"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-090-eye-0.png",
+      "bytes": 212708,
+      "sha256": "EE4FA4F48249B3B5630EDBAC5EAC21B87DDFBC54AD606CFADA8F9FB6FFFAEC78"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-090-eye-1.png",
+      "bytes": 227044,
+      "sha256": "F0BFFC7712A0D1E2B9A7CA6D4CA2BCDA1D03A3C4E3B1E4957921DCC7E1A5C853"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-105-eye-0.png",
+      "bytes": 210484,
+      "sha256": "2E2490B2147E2278FC1AE60CD0C4D0A8A08547FD770460E2456BB9FDD6CB85FD"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-105-eye-1.png",
+      "bytes": 225495,
+      "sha256": "8F2E0AB66DE1BED839E8EFEBD0C09F2933942842EB701187C15578F3830807C4"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-120-eye-0.png",
+      "bytes": 222835,
+      "sha256": "5DC1B352066C0068093A11E57C55A2DE16C19EB8D4FDC740A2459E8F6D726871"
+    },
+    {
+      "path": "assets/face-detail-v5/pose-120-eye-1.png",
+      "bytes": 237892,
+      "sha256": "D9AFFFE103CDCD6DB5F2075A5A29884931730C5F0C3FE71F33A33A0EA94FBEE2"
+    },
+    {
+      "path": "assets/fonts/LXGWWenKaiTC-Light.ttf",
+      "bytes": 15613068,
+      "sha256": "DCA5B82A847C7A419BFD0A9DDB97A90FA198848EF6C3F15AB72B6909738CB820"
+    },
+    {
+      "path": "output/versions/startup-living-v6/startup-intro.mp4",
+      "bytes": 10136330,
+      "sha256": "E2CC36DBB40246DB7603267CB4866AC06190B5BCE7F13B5FED1906CE7A57E8E9"
+    },
+    {
+      "path": "output/versions/startup-living-v6/startup-idle.mp4",
+      "bytes": 2647424,
+      "sha256": "1B911BADDC199134234249EFC23825A02853CA3D473DF784836A4E30A7858EA9"
+    },
+    {
+      "path": "output/versions/startup-living-v6/startup-finale.mp4",
+      "bytes": 3374408,
+      "sha256": "621AC90D173AA360B6B9F5AE152978E5EE19F7A55343BA940A3D558A1B30C54F"
+    },
+    {
+      "path": "assets/face-detail.config.xml",
+      "bytes": 411,
+      "sha256": "E3991DBADE0042EA70CD2CC8BB9A0CEBAE4A1DDA963EC05C2E588457D49F38B3"
+    },
+    {
+      "path": "assets/fonts/LXGWWenKaiTC-OFL.txt",
+      "bytes": 4395,
+      "sha256": "1A13783BF4337242834B60309CDCDBEB566AE3F923576FDBBA8B78DB9D174DEF"
+    },
+    {
+      "path": "output/versions/particle-v33/dragon-wallpaper-particles-1440p48.mp4",
+      "bytes": 85749283,
+      "sha256": "E45905234E9C0BC7370AB7C480E5898FB561818DB7BD51A57921312EBCCE6CDD"
+    }
+  ]
+}

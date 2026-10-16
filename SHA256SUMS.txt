@@ -1,1 +1,2 @@
 682928d2e6ce85bfb3d83acadb4e85da9efe4948a593a63e4dc2e605a08ff524  codex-startup-animation-v1.0.0-win-x64.zip
+ae1971d4907044bc4bbca94a994410e383b7d5b2b9f338062ae73bfc68bcc377  CodexDragon-V34-Portable-Windows-x64-r2.zip

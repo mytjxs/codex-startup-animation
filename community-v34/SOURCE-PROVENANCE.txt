@@ -1,0 +1,31 @@
+Public packaging candidate, based on the V34 repaired runtime.
+
+Upstream project: https://github.com/mytjxs/codex-startup-animation
+Customization and release packaging contributor: HanwenZhang-George (GitHub).
+This is a community customization, not an official OpenAI distribution.
+
+The 19 C# files under src/ and wallpaper-host-src/, together with renderer.js,
+are preserved from the working runtime. The public build explicitly includes
+StartupReliability.cs and NativeRestoreGuard.cs, with .NET Framework 4.8 metadata
+and a Windows compatibility manifest.
+
+src/WallpaperSetup.cs and src/SetupReleaseManifest.cs are retained for historical
+source review only. They belong to the former machine-specific setup chain and
+are deliberately NOT compiled or installed as an executable public entry.
+The public entry is packaging/PortableLaunch.cs. It discovers the current user's
+registered official Store package and creates a local config. The former update
+scripts, copied account profiles, local build receipts, desktop hooks, official
+Codex binaries and personal logs are not included.
+
+Build.ps1 produces a full release containing the current sources and all 46
+declared media/font/config assets at their original quality. media-manifest.json
+records relative names, sizes and SHA-256 values, never personal source paths.
+The supplied compiler is Windows' .NET Framework compiler; no repository package
+downloads or third-party build scripts are executed.
+
+No upstream project-code license was found in the supplied source. No new MIT
+or other license is imposed on upstream code or media; distribution terms await
+the upstream maintainer's clarification. The contributor has requested submission
+of this customization and its generated media for review. This statement does
+not assert that all third-party rights have been cleared. FONT-LICENSE.txt
+preserves the bundled LXGW WenKai TC font's SIL Open Font License notice.

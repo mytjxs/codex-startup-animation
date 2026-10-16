@@ -1,3 +1,9 @@
+> **Community V34 contribution:** a more extensively customized startup animation and dynamic wallpaper is available for review in [`community-v34/`](community-v34/README.txt). The original v1.0.0 instructions below are preserved.
+>
+> The V34 ready-to-run distribution is **`CodexDragon-V34-Portable-Windows-x64-r2.zip`**, supplied as a Release asset with both wallpaper videos, all character assets, font, source and executables. GitHub's **Code → Download ZIP** is source only. Read the requirements and verification limits in `community-v34/README.txt` before installing.
+>
+> The portable version starts through **`Launch.exe`**; it does not replace the official Codex icon or contain the author's local account/configuration. Contributor: **HanwenZhang-George**. No new license is assigned to upstream code or media.
+
 # codex启动动画
 
 Windows Codex 龙娘启动动画安装包。横向 **16:9、2560 × 1440、60 帧/秒、8 秒**，从发光线条勾勒人物到龙娘显现、缓缓睁眼，随后打开 Codex 桌面应用。

@@ -1,0 +1,2 @@
+# Preserve the reviewed Windows sources and their recorded hashes on checkout.
+community-v34/** -text

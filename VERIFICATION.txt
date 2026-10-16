@@ -1,0 +1,79 @@
+Community V34 portable publication verification
+Verification date: 2026-10-16
+
+Distribution under review
+  CodexDragon-V34-Portable-Windows-x64-r2.zip
+  Bytes: 368941074
+  SHA256: AE1971D4907044BC4BBCA94A994410E383B7D5B2B9F338062AE73BFC68BCC377
+
+Scope and preserved behavior
+- The current installed runtime was not changed by the publication work.
+- Original 19 C# runtime source files, renderer and launcher configuration were
+  retained byte for byte. Public installation/entry wrappers are separate.
+- All 46 declared media/font/config assets are included at their original size
+  and quality. Both 15-second 2560x1440 wallpaper clips are included.
+- Initial ambient appearance, subsequent 75% ambient / 25% alternate selection,
+  10-15 second random interval, startup animation and escape behavior remain in
+  the preserved runtime. This is a source-preservation claim, not a statistical
+  proof of random frequencies from a long-duration run.
+
+Packaging and local verification
+- The ZIP contains exactly 94 files: 93 manifest entries plus the manifest.
+  Every listed size and SHA256 matched. No extra, duplicate, case-aliased,
+  traversing, encrypted or symbolic-link ZIP entry was found.
+- Verification used a fresh directory with Chinese characters and spaces.
+- Real WPF startup preview opened intro/idle/finale media and exited normally.
+- Both wallpaper clips decoded in an isolated browser fixture, produced real
+  changing frames and reported 2560x1440 resolution without decoding errors.
+- Package installation uses a new destination, staging verification and rename.
+  Tests cover refusing an existing destination / invalid ownership and retaining
+  unrelated files or user-modified configuration during uninstall.
+- Path traversal/ADS rejection and repeated-click quiet-mode busy status were
+  exercised. --check and --configure return 75 when the public entry is busy.
+- Normal diagnostic logging and a real directory-junction rejection were tested.
+  Windows denied creation of file symlinks (error 1314): valid/dangling file-link
+  protection was reviewed in source but could NOT be exercised on this host.
+  The 120-second child-wait timeout was source-reviewed, not waited in real time.
+
+Publication privacy review
+- Gitleaks 8.30.1 used default rules locally, with no project-specific allowlist.
+  No secret matches were found in the final source or full release tree.
+- Exact ZIP text members were checked for personal user paths, email addresses,
+  machine SIDs, private-key headers, JWT shapes and signed/authenticated URLs.
+  No matches were found. Scan reports contain locations/categories, not secrets.
+- PNG ancillary metadata, MP4 format/stream tags, executable string content and
+  font name/license records were inspected. Only public font provenance and
+  normal media metadata were retained. Assets were not re-encoded.
+- Account profiles, cookies, authentication files, local host/session config,
+  original logs, screenshots, private review bundles, old backups and official
+  Codex binaries are excluded. The local generated config is created on the
+  recipient's machine. No API key is needed for the pre-generated media.
+- Git uses the contributor's public username and GitHub noreply commit address.
+  These scans reduce risk; they are not a mathematical proof that a secret can
+  never be present. Release integrity hashes are not publisher signatures.
+
+Compatibility and evidence limits
+- This was a same-PC isolated test, not a clean Windows VM or another physical
+  PC. A real cold launch of a second production Codex was intentionally avoided
+  to preserve the running installation. Native handoff fixtures do not prove
+  every actual Codex window/driver combination will behave identically.
+- Require Windows 10/11 x64, .NET Framework 4.8, Windows PowerShell 5.1, the user's
+  official Microsoft Store Codex x64 app, and working Windows media components.
+  Windows N editions may require Microsoft's Media Feature Pack.
+- The portable release uses Launch.exe. It does not copy the author's private
+  official-icon hook, overwrite official app files, install a service or task,
+  transfer account state, or open a public TCP debugging port.
+- Current package registration/signature is discovered locally. A future Codex
+  executable/layout change can still require an update; compatibility with all
+  future Windows/Codex releases is not claimed.
+- The four community-built EXEs are not commercially code-signed. Windows may
+  show an unknown-publisher warning. Verify the download's source and SHA256;
+  this package does not require turning off Windows security protection.
+- Wallpaper rendering shares the client's renderer/GPU failure boundary. Forced
+  host termination may affect its owned client. No full crash isolation, 24/48h,
+  ten-day stability or universal 144fps guarantee is claimed.
+- No upstream project-code license was found. Attribution and font OFL notices
+  are retained; this contribution does not invent new upstream/media licenses.
+
+The public source and complete release ZIP are complementary. GitHub's automatic
+source ZIP alone is not the ready-to-run wallpaper package.
