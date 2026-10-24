@@ -1,0 +1,105 @@
+Community V34 R13 publication verification
+Date: 2026-10-24
+
+Accepted complete distribution (stable public filename, R13 contents)
+  CodexDragon-V34-Portable-Windows-x64-r5.zip
+  Bytes: 369377273
+  SHA256: 1D817B93F879AB634A4F96F56665E751B018092A994087E13EF16B801540B884
+  Four executable file versions: 34.13.0.0
+  Release manifest version: 34.4-reliability-r13-test
+
+Artifact identity and user acceptance
+- The maintainer supplied successful user feedback and explicitly authorized
+  publication of this exact R13 ZIP. This is user-reported acceptance, not
+  certification of every device or a claim of additional testing this turn.
+- Publication uses the accepted ZIP bytes without rebuilding or repacking.
+  Diagnostic files and media inside the accepted archive are not modified.
+  Only the external asset name retains r5 to preserve the shared download URL.
+- Existing community-v34-r5 Release and canonical download addresses remain.
+  community-v34-r13 records the R13 source publication.
+- Historical test/candidate/unpublished text inside the frozen ZIP is retained
+  to preserve its hash. Current release status is described outside that ZIP.
+- There are 185 manifest files, 186 ZIP members and 114 included source files.
+  Source publication matches the accepted ZIP, with repository-level public
+  documentation maintained separately from the frozen package.
+
+Repair scope
+- R13 cold-target discovery increases a subsequent fresh idempotent read's
+  response allowance from 2 to 4 seconds after a response timeout. The total
+  horizon remains 30 seconds. Attachment is sent once, capped at 12 seconds and
+  remaining time. Mutations are not retried; stale request replies are rejected.
+- Previously verified ownership of the initially hidden window is preserved
+  when additional hidden auxiliary windows appear. Enumeration, process,
+  ownership and recovery checks remain; ambiguous unowned targets are untouched.
+- Earlier R11/R12 changes admit a narrowly verified official page-surface shell,
+  revalidate style bindings after supported shell attribute/remount changes,
+  resolve optional shortcut entries through the registered manifest, and allow
+  one bounded rediscovery for a registration transition without bypassing trust.
+- Repeated launch can restore the same verified target when it was already
+  minimized at selection, with bounded nonactivating recovery and compensation;
+  later user minimization is respected.
+- Diagnostics retain bounded per-attempt evidence and distinguish public-entry
+  failures, old playback evidence, transport/target loss and process exit.
+  Exit code zero alone does not establish a voluntary user exit.
+- R10 automatic official version/path discovery and R9 commit-headroom recovery
+  remain. Below 512 MiB available commit pauses decoding; at least 1 GiB stable
+  for 30 seconds permits a recovery request. Requesting recovery is not proof
+  of resumed playback. Existing identity and resource protections remain.
+
+Verification evidence for the exact archive
+- ZIP SHA256, every manifest entry and archive closure verified. All 46 original
+  media/font/image files, including six MP4 videos, remain byte-identical.
+- No media re-encoding, resolution/frame-rate reduction, or change to original
+  opacity parameters, first-ambient rule, later 75/25 selection or intervals.
+  Renderer compatibility code has changed; it is not claimed identical to R10.
+- Target-selection regression: 25 scenarios passed.
+- Native-window regression: 134 assertions passed.
+- Lifecycle regression: 66 assertions passed.
+- Diagnostic-history regression: 56 assertions passed.
+- Packaged integrity: all 185 manifest files and four executable versions passed.
+- A diagnostic run from the exact ZIP extraction completed in 3510 ms and
+  produced a 3342-byte report ZIP containing three entries. This measurement
+  is not a fixed-time or fixed-size promise for other computers.
+- Secret/private-pattern scans and a dedicated secret scan recorded no findings.
+  Scans complement the explicit file allowlist; they cannot mathematically
+  guarantee the absence of every possible secret.
+- Test reports and local feedback data are not publication inputs. No real
+  Codex launch/stop or private installation modification was used in these
+  publication checks. Tests do not simulate every driver or exhaust real RAM.
+
+Support and privacy
+- Run Diagnostics/One-Click-Diagnostics.cmd in the actual running copy.
+  Outputs: Diagnostics/Reports/latest-analysis.txt and latest-report.zip.
+- The one-click Detailed mode verifies all formal file hashes, then collects
+  bounded diagnostic records and numeric environment evidence. It attempts to
+  produce the report even when file verification identifies damage.
+- Check-All-Files.cmd checks files alone. Run-Diagnostics.ps1 -Mode Report is
+  the optional quick mode without a new full-file hash pass.
+- Tools do not launch/close/wait for apps, install dependencies, access the
+  network, decode video or run CPU/GPU stress tests. Full hashing reads media
+  files; slow disks/security scanning can extend the collection time.
+- Only the latest output report is retained; copy it elsewhere before retrying
+  if preserving an earlier failure. Logs and exported records are bounded.
+- No raw DOM, paths, titles, chat, account configurations, command lines or API
+  keys are intended report fields. Do not submit raw logs or entire directories.
+- User tutorial and authorized contact addresses are in TROUBLESHOOTING.md.
+
+Supported boundary
+- Windows 10/11 x64, .NET Framework 4.8+, Windows PowerShell 5.1, a writable local
+  NTFS directory and working Windows media components are required.
+- Wallpaper transport supports the verified official Microsoft Store Codex
+  Electron private CDP pipe. Tauri/Wry/WebView2 transport is not implemented.
+  WebView2 markers alone do not establish runtime identity or support.
+- Ordinary official version/manifest-entry path updates can be rediscovered.
+  Package identity, signer, framework, protocol or DOM changes can still need
+  maintenance; universal future compatibility is not claimed.
+- An ordinary already-running client without the managed host cannot safely
+  be retrofitted. Save work, exit normally, then use this Launch.exe.
+- No public debugging TCP port is enabled. File integrity and isolated tests
+  do not prove real decoding, rendering performance or long-term reliability
+  on every computer. User-reported success is preserved as separate evidence.
+- Optional Install-and-Bind.cmd is a reversible per-user shortcut operation.
+  Normal launch does not require recurring administrator authorization.
+- The public package contains Codex startup animation and wallpaper, no CC
+  Switch, personal account data or conversation records. Upstream attribution
+  and font license remain; no new third-party media/code license is invented.

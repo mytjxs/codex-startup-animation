@@ -1,0 +1,143 @@
+R13 first-launch reliability candidate (2026-10-24)
+Built from sealed public R12 source archive, SHA-256:
+f8834701cf226f69aa6e40e6406373bc13967344d9184dc95be6f852f335cb62
+Original GitHub public R10 provenance is retained below.
+Changes: bounded adaptive cold target discovery, retained initial-hidden ownership
+recovery, fixed-enum loss/exit observations and per-attempt diagnostic analysis.
+All 46 media assets, including six videos, remain byte-identical.
+No current private install or user runtime configuration was copied or modified.
+Not uploaded: affected-machine acceptance is required before publication.
+
+Historical R12 notes:
+R12 isolated reliability review test candidate (2026-10-24)
+Base: fresh GitHub download from community-v34-r5, public R10 contents.
+SHA-256: 3b5f1201ddfb244a93ed2f8391e1c0f048c5956a76ed7a9f8d218e92bea48b07
+Source commit: 165b187da2762f6fadac942b71905e44f39797c9
+Prior isolated R11 archive (kept unchanged):
+d0ecd11377415f35bc6adef23cb4fd577f56632c131b0a5b86d51c02ffb2b244
+All 46 original media/font/image files are retained byte-for-byte.
+Changes: narrow page-surface layout support and shell-attribute rebinding,
+bounded startup/runtime structure and native geometry/environment evidence,
+manifest-derived optional official shortcut discovery, one bounded registered
+identity rediscovery during a valid update race, and regression coverage.
+Also includes one-time initially-minimized replay restoration with exact owned
+rollback and later user-minimize preservation, plus newer public-entry failure
+analysis that does not treat old playback evidence as a new successful launch.
+Media quality, random appearance and resource protections are retained.
+Only the isolated public source was modified. No private installation or
+CC Switch code, local runtime configuration or feedback attachment is included.
+This candidate is not published; affected-computer acceptance is pending.
+
+Historical R10 notes below describe that version only.
+R10 test candidate provenance (2026-10-22)
+Public R9 download: community-v34-r5 / CodexDragon-V34-Portable-Windows-x64-r5.zip
+SHA-256: 9bc3c666a2803b4853378cc984eddf54febf0feb68d5abe1e2b5742199d8b3a5
+All 46 original media/font/image files and renderer.js are retained byte-for-byte.
+The automatic official identity resolver and guarded late-maximized handoff are
+ported from the locally validated implementation, without private installation
+paths, credentials, CC Switch integration or previously generated runtime state.
+New public test candidate only; separate-computer acceptance is pending.
+Public packaging candidate, based on the V34 repaired runtime.
+
+The r8 test candidate fixes startup resource-protection cleanup that sent a
+terminal disable to the wallpaper host. It releases optional animation resources
+while retaining the normal reveal intent, including late-session cleanup. It
+does not weaken thresholds or claim playback will succeed under persistent
+resource pressure. The supplied r7 report confirms resource protection and
+subsequent all-hidden window observations; the exact protection reason was not
+retained by the old parser. New diagnostics retain allowlisted reasons and
+separate prior startup failure from the most recent replay attempt.
+An owned authenticated-pipe fixture also reproduced a queued reveal timing out
+behind a valid 1700 ms preparation. Lock contention now shares the original
+3000 ms drain deadline, while exchange IO remains at most 1500 ms and within
+that same deadline. No mutation retry or terminal-disable reversal is added.
+An owned native-window fixture reproduced a legal showCmd=1 snapshot whose
+pending hide ran after fallback incorrectly released its lease. Failure rollback
+now queues one nonactivating visibility compensation, preserves user minimization
+and moved geometry, and retains its small journal if completion is unconfirmed.
+The helper's original 800 ms recovery budget is unchanged. Normal Commit still
+releases the lease. This proves a reachable race, not that the remote report
+identified the exact cause of all its hidden-window observations.
+
+The r7 test candidate adds minimum-read process handles for existing-window
+replay, bounded replay rejection diagnostics, completed-start resource summaries,
+and optional per-user original desktop-shortcut binding with verified restore.
+The supplied r6 report showed a successful ~30.7 s cold start, followed by three
+unclassified replay target rejections. A restricted-ACL reproduction proves one
+compatibility defect; it does not prove the remote machine used that branch.
+The target machine must retest this complete candidate before publication.
+
+Upstream project: https://github.com/mytjxs/codex-startup-animation
+Customization and release packaging contributor: HanwenZhang-George (GitHub).
+This is a community customization, not an official OpenAI distribution.
+
+The C# files under src/ and wallpaper-host-src/, together with renderer.js,
+originate from the working runtime. Public candidates include targeted,
+tested compatibility and diagnostic changes; they are not byte-identical
+to the original runtime. The public build explicitly includes
+StartupReliability.cs and NativeRestoreGuard.cs, with .NET Framework 4.8 metadata
+and a Windows compatibility manifest.
+
+The r4 test candidate preserves r3 bounded read-only readiness retries and
+adds an expiry-guarded single-command lease/prepare/commit path, stable-runtime
+footer transparency compatibility, and bounded numeric runtime diagnostics.
+All 46 original media assets, including six MP4 files, remain hash-identical.
+Video encoding, frame rate, rendering cadence and animation effects are unchanged.
+No claim of universal hardware compatibility or resolved target-machine stutter
+is made by the isolated synthetic tests. Release publication awaits user testing.
+
+src/WallpaperSetup.cs and src/SetupReleaseManifest.cs are retained for historical
+source review only. They belong to the former machine-specific setup chain and
+are deliberately NOT compiled or installed as an executable public entry.
+The public entry is packaging/PortableLaunch.cs. It discovers the current user's
+registered official Store package and creates a local config. The former update
+scripts, copied account profiles, local build receipts, desktop hooks, official
+Codex binaries and personal logs are not included.
+
+Build.ps1 produces a full release containing the current sources and all 46
+declared media/font/config assets at their original quality. media-manifest.json
+records relative names, sizes and SHA-256 values, never personal source paths.
+The supplied compiler is Windows' .NET Framework compiler; no repository package
+downloads or third-party build scripts are executed.
+
+No upstream project-code license was found in the supplied source. No new MIT
+or other license is imposed on upstream code or media; distribution terms await
+the upstream maintainer's clarification. The contributor has requested submission
+of this customization and its generated media for review. This statement does
+not assert that all third-party rights have been cleared. FONT-LICENSE.txt
+preserves the bundled LXGW WenKai TC font's SIL Open Font License notice.
+
+The r5 candidate additionally bounds and confirms native hide requests, preserves
+pending-request rollback, and changes confirmed preparation polling into read-only
+observations. A preparation response timeout is reconciled by fresh matching state,
+without replaying the mutation or extending its original operation deadline.
+Native-window and named-pipe fixtures exercise these paths in isolation.
+Reference API semantics: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-showwindowasync
+All original media and visual settings remain unchanged; this is a test candidate,
+not a claim that every target-machine startup or performance issue is resolved.
+
+The r6 compatibility candidate starts from the downloaded public r5 archive:
+SHA-256 E10D595C28821D1FF232E01FB7B00AF9AFFF7C2462C3F7E62EAAFAA40E456354.
+It fixes delayed composer style-cache invalidation and accessibility specificity,
+decouples verified layout binding from a DOM engine-name label, and scopes existing
+process detection to the current Windows session. It adds allowlisted diagnostic
+layout reasons, bounded media presence and registered-package runtime evidence.
+These changes do not implement Tauri/Wry/WebView2 transport or relax signed-client,
+owned-process, exact-page-origin or private-pipe safety checks.
+Normal visual values and all original media remain unchanged. Synthetic browser,
+latency/IPC and process policy tests do not establish real GPU performance or OS
+multi-session integration. Target-PC user testing remains the publication gate.
+The lightweight Diagnostics support folder is a permanent, separately located
+part of the formal release. Generated Reports, runtime logs, local configuration
+and developer test results are excluded from publication. Publication preserves
+all tested executable, media, source and support-tool hashes.
+
+The r9 candidate is isolated from the user's running installations and from the
+frozen r8 candidate. It removes physical-memory-only shutdown policy, retains a
+512 MiB process-commit floor, and converts critical preparation pressure into the
+existing recoverable decoder hibernation lifecycle. Its renderer retains validated
+File handles without allocating a Blob/decoder during critical commit pressure.
+Diagnostics distinguish historical terminal host code 174 from current recoverable
+pressure states; recovery acknowledgement is not presented as playback success.
+Tests use synthetic memory readings and an isolated offline browser with original
+media, never intentionally exhaust the test machine's memory. No quality reduction.

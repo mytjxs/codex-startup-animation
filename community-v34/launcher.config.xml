@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher>
+  <durationSeconds>8.0</durationSeconds>
+  <frameRate>60</frameRate>
+  <videoFile>output/codex-startup-2k-144fps-crf16.mp4</videoFile>
+  <appUserModelId>OpenAI.Codex_2p2nqsd0c76g0!App</appUserModelId>
+  <executablePath></executablePath>
+  <executableArguments></executableArguments>
+  <characterImage>assets/dragon-master-open-cutout-v1.png</characterImage>
+  <closedEyeImage>assets/dragon-master-closed-cutout-v1.png</closedEyeImage>
+  <respectReducedMotion>true</respectReducedMotion>
+  <smoothHandoff>true</smoothHandoff>
+  <handoffAtSeconds>7.60</handoffAtSeconds>
+  <handoffFadeSeconds>1.10</handoffFadeSeconds>
+  <handoffWaitSeconds>6.0</handoffWaitSeconds>
+  <prewarmSeconds>0.65</prewarmSeconds>
+  <wallpaperEnabled>true</wallpaperEnabled>
+  <startupIntroFile>output/versions/startup-living-v6/startup-intro.mp4</startupIntroFile>
+  <startupIdleFile>output/versions/startup-living-v6/startup-idle.mp4</startupIdleFile>
+  <startupFinaleFile>output/versions/startup-living-v6/startup-finale.mp4</startupFinaleFile>
+  <finaleImpactSeconds>2.6527777777777777</finaleImpactSeconds>
+  <startupReadyTimeoutSeconds>90</startupReadyTimeoutSeconds>
+</launcher>
