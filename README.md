@@ -34,3 +34,14 @@ Windows Codex 龙娘启动动画安装包。横向 **16:9、2560 × 1440、60 �
 ```text
 682928d2e6ce85bfb3d83acadb4e85da9efe4948a593a63e4dc2e605a08ff524
 ```
+
+
+## 累计改进源码（审阅候选）
+
+本分支整理了启动器、动态壁纸、粒子轮换、转场、窗口恢复、官方更新入口、完整打包与离线测试的累计修改。与原始完整安装包的对比见 [累计差异说明](docs/UPSTREAM_COMPARISON.zh-CN.md)。
+
+源码入口为 `Build.ps1`、`src/`、`wallpaper-host-src/`、`renderer.js`、`packaging/` 与 `tests/`。构建需要完整候选包内的媒体，见 [构建与使用说明](README.txt)。原 v1.0.0 的下载链接及校验值继续保留。
+
+最新的启动就绪修复已通过离线测试，实机重启后的完整交接仍待验证。
+
+完整媒体及四个组件的审阅候选包：[社区候选下载](https://github.com/he2542/codex-startup-animation/releases/tag/community-v34-review-20261123)。该包供累计 PR 审阅与集成验证使用。

@@ -1,0 +1,202 @@
+{
+  "upstreamCommit": "9ea3b32b4e53f2d9db5d54265f6341b63aee5c04",
+  "releaseZipSha256": "682928d2e6ce85bfb3d83acadb4e85da9efe4948a593a63e4dc2e605a08ff524",
+  "files": [
+    {
+      "path": "assets/cinematic-closed-prompt.txt",
+      "bytes": 1000,
+      "sha256": "8811b0df368f3b7ce8467d295fa7e110ba5462d12759a64bd443bf97b38eb8d6",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/cinematic-open-prompt.txt",
+      "bytes": 2296,
+      "sha256": "24f36a240de93f001c329331fd2a6d3bf76dd234e1a5ae1794a50ae7f1b23245",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/dragon-cinematic-closed.png",
+      "bytes": 2493927,
+      "sha256": "8bd9b4370de67f9f1d87e7eecf41a7c81f9000ff65c24a0416d6e6996bae095d",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/dragon-cinematic-open.png",
+      "bytes": 2641219,
+      "sha256": "acf6e859dc714c8f0eb23d5d4894e9968ce22de5e25a95f37cac6de99190ac7a",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/dragon-eye-half.png",
+      "bytes": 2496347,
+      "sha256": "3ba4616f2dd0ac1e776f66eb9cb11a90048533c92063ddf844ae6584e0b15051",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/dragon-eye-motion.png",
+      "bytes": 14087264,
+      "sha256": "3d0783e55f4effa8f1383a3d958c47b31bab519e8ece35802bb28c8d11bcf034",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/dragon-eye-quarter.png",
+      "bytes": 2478388,
+      "sha256": "0ea31c5df767a63f38733182b94a1808707f169efadd90bb850aca2c29192526",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/dragon-eye-threequarter.png",
+      "bytes": 2484348,
+      "sha256": "e6fb125c5a7496ac609be368f1a32201715484e6619f45dab87130cc2bfb8a7e",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/eyelid-keyframe-prompts.json",
+      "bytes": 4087,
+      "sha256": "b34a7dc3af7e8f35eee656a75ec73640be82e511c524f0a3090ab23bd92ca19d",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/generation-prompt-v3.txt",
+      "bytes": 3624,
+      "sha256": "5ea5be6683ea66c2a7f226bb49981427da5295b2f09949e706cdd8d34e76a391",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "assets/gpt-dragon-reference-v3.png",
+      "bytes": 1700712,
+      "sha256": "85c687da5dff28dc356fd605f078f0b2a58e5771368bd0e92e981fad917007df",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "build-eye-motion.ps1",
+      "bytes": 247,
+      "sha256": "41bb406d1f9a38f9bf93ddac91825a5cc733abfaf5d37c40db11dfba62285b3b",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 1552,
+      "sha256": "bd0460b3844c5be1b0937461d2923145a298079e3e03a75cb4a3f565f0919bcb",
+      "comparison": "modified"
+    },
+    {
+      "path": "launcher.config.xml",
+      "bytes": 535,
+      "sha256": "239e81e8c2fa6d3c196552e72afc098b0f1fa2b30d2037daa6b51f37b3e17b1d",
+      "comparison": "modified"
+    },
+    {
+      "path": "output/gpt-dragon-cinematic-2k-60fps-poster.png",
+      "bytes": 2445159,
+      "sha256": "74c4b4868ed67f6b0280964f534314921d9c32bd0f584d04d81437ddf5681a54",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "output/gpt-dragon-cinematic-2k-60fps-text-layout.mp4",
+      "bytes": 5579548,
+      "sha256": "73798205dd9b78d820de018dc858d98826d52eeb2d9ab6d75f1b6f0e0660409a",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "output/gpt-dragon-cinematic-2k-60fps.mp4",
+      "bytes": 5579548,
+      "sha256": "73798205dd9b78d820de018dc858d98826d52eeb2d9ab6d75f1b6f0e0660409a",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "output/line-motion-samples.txt",
+      "bytes": 3056,
+      "sha256": "0691b21b7ebe70fbfa695b1a5ee48e56eaf263882a709d0f95e66a14622dbbef",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "output/native-preview-validation.txt",
+      "bytes": 271,
+      "sha256": "47dff5207fa68f6d421013c419e43d848cc017055caf3fbf43251174d958cf22",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "output/validation-2k-60fps.json",
+      "bytes": 1371,
+      "sha256": "51b70351f2093e6aa53b444e4f64b912326951de572555ed7cac5fadefb8caf5",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "Preview-Dragon.cmd",
+      "bytes": 59,
+      "sha256": "9148bfe3d7e5f2a0339a20083b83ee3665a1c410e9379975fe4856f71c309596",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10680,
+      "sha256": "300238182b6d500299c93fb3a8cb98ebec2767aa4e716f52c1b6a2b5b0b1830a",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "render-preview.ps1",
+      "bytes": 2475,
+      "sha256": "a3eb8d348e18575e1eb36160d13d090bfc7fecdb57512c92150a94280633d772",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "src/CinematicScene.cs",
+      "bytes": 27932,
+      "sha256": "575dfcfec590c766f7551cd8a129ee3cf9e9bbc615eb64970716f4a8a129d899",
+      "comparison": "modified",
+      "added": 351,
+      "removed": 60
+    },
+    {
+      "path": "src/DragonLauncher.cs",
+      "bytes": 14842,
+      "sha256": "aee74dffdc82a78affe6fd15338f91e1914759877ec430728589ea135e392e2f",
+      "comparison": "modified",
+      "added": 210,
+      "removed": 18
+    },
+    {
+      "path": "src/EyeRig.cs",
+      "bytes": 3280,
+      "sha256": "dbdcb939a16baf864279171985188a5c9bbf4b157f110a6af8bc43a52b9ec4c2",
+      "comparison": "modified",
+      "added": 230,
+      "removed": 25
+    },
+    {
+      "path": "src/FilmSplash.cs",
+      "bytes": 11528,
+      "sha256": "691564a84ce4ff25c0e3ba61c9eab3d72870cda75f88d3e42cbc84c1683389b8",
+      "comparison": "modified",
+      "added": 38,
+      "removed": 21
+    },
+    {
+      "path": "src/StrokeTrace.cs",
+      "bytes": 27177,
+      "sha256": "2676e3726b56140fed334481a2b3043f2e3d1d9b039ea9adc9175abf0095deed",
+      "comparison": "modified",
+      "added": 20,
+      "removed": 7
+    },
+    {
+      "path": "Start-Codex-Dragon.cmd",
+      "bytes": 49,
+      "sha256": "ad976fc1fca3d1268477b75c4cc3d360294cd3e08801ec727429f19cc5289796",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "Start-Codex-Dragon.exe",
+      "bytes": 54272,
+      "sha256": "59b604e58291d9ecebc4a07188fee43125195c3fadb92c57ac2b1c520ad873a4",
+      "comparison": "not-in-current-source"
+    },
+    {
+      "path": "tools/build_eye_motion.py",
+      "bytes": 5666,
+      "sha256": "3f1dc8c4d6ad4d55f7e1136dcd6e32d433197364c9018694d43ddb8524b58cd7",
+      "comparison": "not-in-current-source"
+    }
+  ]
+}

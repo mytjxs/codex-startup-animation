@@ -1,0 +1,21 @@
+name: Windows source tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and run offline fixtures
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+          foreach ($name in @('StartupCompatibility','StartupReadiness','StartupTargetSelection','StartupHandoff','RuntimeDiagnostics','StartupObservation')) {
+            & (Join-Path $PWD ("tests/Test-" + $name + ".ps1")) -OutputDirectory (Join-Path $env:RUNNER_TEMP $name)
+            if ($LASTEXITCODE -ne 0) { throw ("Failed: " + $name) }
+          }

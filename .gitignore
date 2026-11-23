@@ -1,0 +1,27 @@
+# Credentials, personal configuration, runtime output and build products never belong in Git.
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+*.dmp
+*.zip
+*.7z
+*.exe
+*.pdb
+wallpaper-host-config.json
+wallpaper-host-session.json
+install-state.json
+diagnostics/
+dist/
+build/
+output/
+assets/
+profiles/
+.codex/
+.cache/
+
+# The full, hash-verified media and binaries are shipped together in a GitHub
+# Release ZIP. Keep this Git source tree small and independently auditable.
